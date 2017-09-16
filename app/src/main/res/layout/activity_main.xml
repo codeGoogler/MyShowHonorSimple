@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:paddingBottom="@dimen/dp15"
+    android:paddingLeft="@dimen/dp15"
+    android:paddingRight="@dimen/dp15"
+    android:paddingTop="@dimen/dp15">
+
+    <mg.hon.king.com.myshowhonorsimple.view.HeartHonorLayout
+        android:id="@+id/heart_layout"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/btn_onclick"
+        android:background="@drawable/bgshade" />
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/btn_onclick"
+            android:text="点我"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="60dp" />
+    <Button
+        android:layout_width="100dp"
+        android:id="@+id/btn_onclick2"
+        android:layout_height="60dp"
+        android:text="自动点赞"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"  />
+</RelativeLayout>

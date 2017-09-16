@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="heart_anim_init_x">34.0dp</dimen>
+    <dimen name="heart_anim_init_y">15.0dp</dimen>
+    <dimen name="heart_anim_length">150.0dp</dimen>
+    <dimen name="heart_anim_length_rand">100.0dp</dimen>
+    <dimen name="heart_anim_bezier_x_rand">40.0dp</dimen>
+    <dimen name="heart_anim_x_point_factor">50.0dp</dimen>
+    <dimen name="heart_size_height">27.3dp</dimen>
+    <dimen name="heart_size_width">32.5dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp11">11dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp13">13dp</dimen>
+    <dimen name="dp14">14dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+</resources>
